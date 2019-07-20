@@ -1,14 +1,6 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab One
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-  <form>
-   <h1 class="teste">Dados Cadastrais</h1>
+<ion-content class="body">
+  <form class="body">
+    <img src="assets/images/LOGO-9-16.png" />
    <ion-item>
       <ion-label position="stacked">CPF<ion-text color="danger">*</ion-text></ion-label>
       <ion-input required type="text"></ion-input>
@@ -21,7 +13,7 @@
       <ion-button expand="block" type="submit" class="ion-no-margin" color="warning">Entrar</ion-button>
       </div>
       <div class="ion-padding">
-      <ion-button expand="block" type="submit" class="ion-no-margin" color="warning">Crie Sua Conta</ion-button>
+      <ion-button expand="block" type="submit" class="ion-no-margin"color="warning" (click)="onContinuar(1)">Crie Sua Conta</ion-button>
        </div>
       </form>
 </ion-content>
